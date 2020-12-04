@@ -1,0 +1,211 @@
+<html>
+ <head>
+ <title> Anime Gallery (Home) </title>
+
+   <style>
+        
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #2b2b2b; 
+    }
+ 
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #151515; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #000; 
+    }
+
+   body{
+      background-color: #2b2b2b;
+   }
+
+   ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #151515;
+   }
+
+   li{
+      float: left;
+   }   
+       
+   li a{
+      display: block;
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+   }
+
+   li a:hover{
+      background-color: #111;
+   }
+
+   .active{
+      color: #c0ffff;
+      background-color: #000;
+   }
+
+   .button {
+      display: inline-block;
+      border-radius: 10px;
+      background-color: #f23a63;
+      border: dashed;
+      color: #FFFFFF;
+      font-size: 20px;
+      padding: 15px 25px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 25px 5px 5px 5px;
+      position:absolute; left:650px;
+   }
+
+   .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+   }
+
+   .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+   }
+
+   .button:hover span {
+      padding-right: 25px;
+   }
+
+   .button:hover span:after {
+      opacity: 1;
+      right: 0;
+   }
+
+   .glow{
+         font-size: 60px;
+         color: #d5bffc;
+         font-family: brush script mt;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+         animation: glow 1s ease-in-out infinite alternate;
+   }
+
+   @-webkit-keyframes glow {
+       from {
+         text-shadow: 0 0 1px #9D00FF, 0 0 2px #9D00FF;
+   }
+  
+   to {
+       text-shadow: 0 0 10px #9D00FF, 0 0 15px #4c006b, 0 0 20px #4c006b, 0 0 25px #4c006b, 0 0 30px #220042, 0 0 40px #220042;
+    }
+   }
+
+   #text{
+      text-align: left;
+      font-size: 23px;
+      font-family: monospace;
+      color: #fff;
+   }
+  
+   ins{
+      color: #f457c5;
+   }
+
+   em{
+      color: #ff75c8;
+   }
+
+   </style>
+
+ </head>
+  <body>
+
+       <ul>
+        <li><a class="active" href="Home.html">Home</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Sources.html">Sources</a></li>
+        <li style="float:right"><a href="About Us.html">About Us!</a></li>
+       </ul>
+
+  <h1 class="glow"> What is Anime? </h1>
+   <p style= "color: #fff; font-family:comic sans ms; font-size: 25px;"> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Well if you don't know then you're either living under a rock 
+   <small> (it's 2020, c'mon) </small> 
+   or you just don't like the internet. 
+   <small> (Understandable, have a nice day) </small>
+   Anyways, <ins><i> anime </i> is a hand-drawn and computer animation that's originated from Japan.</ins>
+   <small> (basically japanese animation) </small> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </p>
+
+   <p style="color: #adffff; font-family: arial; font-size: 20px;">
+   Fun fact: Oten Shimokawa, Seitaro Kitayama, and Jun'ichi Kouchi were the first generation of 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; animators in the late 1910s, who were known as the "father's of anime"
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   </p>   
+
+  <h1 class="glow"> 
+  The Anime Community Phrases: 
+  </h1>
+   <div id="text">
+   <p>&nbsp; <em>Weeaboo (Weeb)</em>= A non-Japanese person who is obsessed with anime 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or Japanese culture and behaves in a 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stereotypically Japanese manner </p>
+   <p>&nbsp; <em>Otaku</em>= A Japanese person who is normally obsessed anime and manga </p>
+   <p>&nbsp; <em>Manga</em>= A Japanese styled comic </p>
+   <p>&nbsp; <em>Mangaka</em>= Manga artist </p>
+   <p>&nbsp; <em>Doujinshi</em>= Fan-made manga </p>
+   <p>&nbsp; <em>Seiyuu</em>= Voice actor/actress in anime </p>
+   <p>&nbsp; <em>Gakuran</em>= The uniform made for middle school and high school 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;students in Japan </p>
+   <p>&nbsp; <em>Baka</em>= Dummy, Idiot, Stupid </p>
+   <p>&nbsp; <em>Urusai</em>= Noisy/Shut up </p>
+   <p>&nbsp; <em>Kawaii</em>= Cute </p>
+   <p>&nbsp; <em>Nani</em>= what </p>
+   <p>&nbsp; <em>Chibi</em>= Something small or shrunken that is normally cute </p>
+   <p>&nbsp; <em>Trap</em>= A character that looks or dresses like the opposite gender </p>
+   <p>&nbsp; <em>Tsundere</em>= A character that's very cold on the outside until they 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;are comfortable enough in the anime to show their
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cute/soft side </p>
+   <p>&nbsp; <em>Yandere</em>= A character that's obsessed with their love interest and
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;would often use violance or force to show their love >:) </p>
+   <p>&nbsp; <em>Kuudere</em>= A cool headed character often seen with an emotionless 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blank expression and deadpan voice </p>
+   <p>&nbsp; <em>Waifu</em>= A term that simps use to indicate their favourite female 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;character </p>
+   <p>&nbsp; <em>Husbando</em>= A term that simps use to indicate their favourite male 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;character </p>
+   <p>&nbsp; <em>Harem</em>= A sub-genre where the protagonist is surrounded by a lot of 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;female/male characters that have feelings for the 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;protagonist </p>
+   <p>&nbsp; <em>Yaoi</em>= Men romance </p>
+   <p>&nbsp; <em>Yuri</em>= Women romance </p>
+   <p>&nbsp; <em>Shonen/Shoujo</em>= Shounen:boys and Shoujo:girls <small> (These terms are often 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;used to differentiate between intended audiences) </small> </p>
+   <p>&nbsp; <em>Shonen ai</em>= Boy romance :D </p>
+   <p>&nbsp; <em>Shoujo ai</em>= Girl romance :D </p>
+   </div>
+
+  <a href="Gallery.html">
+  <button class="button" style="vertical-align:middle"><span>Go to Gallery </span></button>
+  </a>
+
+  </body>
+</html>

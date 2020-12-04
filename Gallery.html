@@ -1,0 +1,163 @@
+<html>
+ <head>
+ <title> Anime Gallery (Gallery) </title>
+
+   <style>
+        
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #2b2b2b; 
+    }
+ 
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #151515; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #000; 
+    }
+
+   body{
+      background-color: #2b2b2b;
+   }
+
+   h1{
+      text-align: center;
+      font-size: 50px;
+      font-family: brush script mt;
+      color: #d7b9ee;
+   }
+
+   p{
+      text-align: center;
+      font-size: 20px;
+      font-family: comic sans ms;
+      color: #a8ceeb;
+   }
+
+     #lines{
+        text-decoration-line: overline underline;
+        text-decoration-style: dashed;
+        text-decoration-color: #9e79ba;
+        font-size: 60px;
+        color: #d5bffc;
+        font-family: brush script mt;
+       -webkit-animation: glow 1s ease-in-out infinite alternate;
+       -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+     }
+
+     @-webkit-keyframes glow {
+         from {
+           text-shadow: 0 0 1px #9D00FF, 0 0 2px #9D00FF;
+     }
+  
+     to {
+         text-shadow: 0 0 10px #9D00FF, 0 0 15px #4c006b, 0 0 20px #4c006b, 0 0 25px #4c006b, 0 0 30px #220042, 0 0 40px #220042;
+      }
+     }
+
+     #main{
+        text-align: center;
+        width: 700px;
+        height: 250px;
+        background: #404040;
+        padding: 0;
+        box-sizing: border box;
+        margin: 25px auto;
+        border: dotted #f3ebf3;
+        border-radius: 20px;
+     }
+
+   ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #151515;
+   }
+
+   li{
+      float: left;
+   }   
+       
+   li a{
+      display: block;
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+   }
+
+   li a:hover{
+      background-color: #111;
+   }
+
+   .active{
+      color: #c0ffff;
+      background-color: #000;
+
+   </style>
+
+ </head>
+  <body>
+   
+     <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a class="active" href="Gallery.html">Gallery</a></li>
+      <li><a href="Sources.html">Sources</a></li>
+      <li style="float:right"><a href="About Us.html">About Us!</a></li>
+     </ul>
+
+  <div id="lines">     
+   <h1> Anime Gallery </h1>
+  </div> 
+
+   <div id="main">
+   <p> Pick a Genre! </p>
+    <nav>
+
+     <ul>
+
+      <li><a href="action.html">Action</a></li>
+      <li><a href="adventure.html">Adventure</a></li>
+
+      <li><a href="comedy and slice of life.html">Comedy/Slice Of Life</a></li>
+
+      <li><a href="shounen and shoujo.html">Shounen/Shoujo</a></li>
+
+      <li><a href="drama.html">Drama</a></li>
+<li><a href="Fantasy.html">Fantasy</a></li>
+
+      <li><a href="supernatural.html">Supernatural</a></li>
+
+      <li><a href="mystery.html">Mystery</a></li>
+
+      <li><a href="psychological.html">Psychological</a></li>
+
+      <li><a href="romance.html">Romance</a></li>
+
+      <li><a href="sci-fi.html">Sci-Fi</a></li>
+
+      <li><a href="historical.html">Historical</a></li>
+
+      <li><a href="sport.html">Sport</a></li>
+
+      <li><a href="school life.html">School Life</a></li>
+
+      <li><a href="shounen ai and shoujo ai.html">Shounen Ai/Shoujo Ai</a></li>
+
+     </ul>
+
+    </nav>
+   </div>
+  </body>
+</html>

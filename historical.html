@@ -1,0 +1,123 @@
+﻿<html>
+ <head> 
+
+ <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+        
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #2b2b2b; 
+    }
+ 
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #151515; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #000; 
+    }
+
+   body{
+      background-color: #2b2b2b;
+   }
+
+   .glow{
+         font-size: 70px;
+         margin: 30px auto;
+         color: #c8bffc;
+         font-family: brush script mt;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+         animation: glow 1s ease-in-out infinite alternate;
+   }
+
+   @-webkit-keyframes glow {
+       from {
+         text-shadow: 0 0 1px #7500c7, 0 0 2px #7500c7;
+   }
+  
+   to {
+       text-shadow: 0 0 10px #7500c7, 0 0 15px #4c006b, 0 0 20px #4c006b, 0 0 25px #4c006b, 0 0 30px #220042, 0 0 40px #220042;
+    }
+   }
+
+   h3{
+      text-align: left;
+      margin: 50px 5px 10px 15px;
+      font-size: 30px;
+      font-family: times new roman;
+      color: #8da8e7;
+   }
+
+   b{
+      color: #d1fffe;
+   }
+   
+   .btn {
+      background-color: Grey;
+      border: 2px solid #4c4c4c;
+      color: white;
+      padding: 15px ;
+      font-size: 25px;
+      cursor: pointer;
+   }
+
+   #buttonposition{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+   }
+
+   /* Darker background on mouse-over */
+   .btn:hover {
+      background-color: Dimgrey;
+   }
+   
+  </style>
+  
+ </head>
+  <body>
+  <h1 class="glow"> Historical </h1>
+   <p style="color:#fff;font-size:25px;font-family:comic sans ms;"> -Historical anime revolves around historical settings and moments of antiquity. Typically set in Ancient Japan and the feudal period. <sup><small>(Other settings such as the Middle Ages and medieval period of Europe exist but they’re much rarer in anime)</sup></small></p>
+   <h3> *Black Butler* </h3>
+     <img src="bb.jpg" alt="Black Butler" style="width:300px;height:450px;">
+    <p style="color:#fff;font-size:20px;font-family:comic sans ms;"> <b>Summary :</b> Ciel Phantomhive was violently tortured in his past. Desperate to end his suffering, the boy traded his own soul for a chance at vengeance to a demon Butler, Sebastion. </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Status :</b> Completed </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Episodes :</b> 46 Episodes (season 1-2) + 1 Movie + Specials</p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Adaption :</b> Manga </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Type :</b> Series / Movie </p>
+   <h3> *The Royal Tutor* </h3>
+     <img src="trt.jpg" alt="The Royal Tutor" style="width:300px;height:450px;">
+    <p style="color:#fff;font-size:20px;font-family:comic sans ms;"> <b>Summary :</b> Heine Wittgenstein, a childlike no-name tutor, has been called upon to undertake a daunting task that has driven away many before him— <i>"Become the new royal tutor to four princes who are in line for the throne,"</i></p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Status :</b> Completed </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Episodes :</b> 12 Episodes + 1 Movie </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Adaption :</b> Manga </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Type :</b> Series </p>
+   <h3> *Baccano!* </h3>
+     <img src="bcc.jpg" alt="Baccano!" style="width:300px;height:450px;">
+    <p style="color:#fff;font-size:20px;font-family:comic sans ms;"> <b>Summary :</b> Several events that may seem unrelated to eachother are actually a part of an unsolved incident— one of alchemy and immortality. Merging these events together are the lovable wannabe thieves, Isaac and Miria. </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Status :</b> Completed </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Episodes :</b> 13 Episodes </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Adaption :</b> Light Novel </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Type </b>: Series </p>
+    
+   <div id="buttonposition">
+    <a href="Home.html">
+    <button class="btn"><i class="fa fa-home"></i></button>
+    </a>
+    <a href="Gallery.html">
+    <button class="btn"><i class="fa fa-folder"></i></button>
+    </a>
+   </div>
+
+  </body>
+</html>

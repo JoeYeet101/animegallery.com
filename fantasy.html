@@ -1,0 +1,123 @@
+﻿ <html>
+ <head> 
+
+ <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+        
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #2b2b2b; 
+    }
+ 
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #151515; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #000; 
+    }
+
+   body{
+      background-color: #2b2b2b;
+   }
+
+   .glow{
+         font-size: 70px;
+         margin: 30px auto;
+         color: #a8bff5;
+         font-family: brush script mt;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+         animation: glow 1s ease-in-out infinite alternate;
+   }
+
+   @-webkit-keyframes glow {
+       from {
+         text-shadow: 0 0 1px #67a7da, 0 0 2px ##67a7da;
+   }
+  
+   to {
+       text-shadow: 0 0 10px #67a7da, 0 0 15px #2d4a7b, 0 0 20px #2d4a7b, 0 0 25px #2d4a7b, 0 0 30px #2d4a7b, 0 0 40px #2d4a7b;
+    }
+   }
+
+   h3{
+      text-align: left;
+      margin: 50px 5px 10px 15px;
+      font-size: 30px;
+      font-family: times new roman;
+      color: #a299f4;
+   }
+
+   b{
+      color: #d1fffe;
+   }
+   
+   .btn {
+      background-color: Grey;
+      border: 2px solid #4c4c4c;
+      color: white;
+      padding: 15px ;
+      font-size: 25px;
+      cursor: pointer;
+   }
+
+   #buttonposition{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+   }
+
+   /* Darker background on mouse-over */
+   .btn:hover {
+      background-color: Dimgrey;
+   }
+   
+  </style>
+  
+ </head>
+  <body>
+  <h1 class="glow"> Fantasy </h1>
+   <p style="color:#fff;font-size:25px;font-family:comic sans ms;"> -Fantasy animes primarily deals with fictional worlds and surreal events. Usually, the setting is in a magical world where the main casts starts an adventure.</p>
+   <h3> *Violet Evergarden* </h3>
+     <img src="ve.jpg" alt="Violet Evergarden" style="width:300px;height:450px;">
+    <p style="color:#fff;font-size:20px;font-family:comic sans ms;"> <b>Summary:</b> Violet Evergarden, a girl who  lost both of the arms during the war, is trying to reintegrate back into society and search for the meaning of her mentor's last words &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>"I love you." -Major Gilbert</em></p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Status :</b> Completed </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Episodes :</b> 13 + 2 movies </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Adaptation :</b> Light Novel </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Type :</b> Series + Movies </p>
+   <h3> *Wolf Children* </h3>
+     <img src="wc.jpg" alt="Wolf Children" style="width:300px;height:450px;">
+    <p style="color:#fff;font-size:20px;font-family:comic sans ms;"> <b>Summary:</b> Wolf Children is the heart-warming story about the hardships of a single mother with two wolf children living in an unforgiving modern world.</p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Status :</b> Completed </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Episode :</b> 1 </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Adaptation :</b> Original </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Type :</b> Movie </p>
+   <h3> *Re: Zero- Starting Life in Another World* </h3>
+     <img src="rz.jpg" alt="Re: Zero- Starting Life in Another World" style="width:300px;height:450px;">
+    <p style="color:#fff;font-size:20px;font-family:comic sans ms;"> <b>Summary:</b> Natsuki Subaru, a shut-in-NEET, has been <i>isekai-ed</i><small> (transported) </small> to another world. After his first death, he was awakened with a new ability, "Return by Death".</p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Status :</b> On Going (Season 3 coming soon) </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Episodes :</b> 38 ( season 1-2 ) </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Adaptation :</b> Light Novel </p>
+    <p style="color:#fff;font-size:15px;font-family:comic sans ms;"> <b>Type :</b> Series </p>
+    
+   <div id="buttonposition">
+    <a href="Home.html">
+    <button class="btn"><i class="fa fa-home"></i></button>
+    </a>
+    <a href="Gallery.html">
+    <button class="btn"><i class="fa fa-folder"></i></button>
+    </a>
+   </div>
+
+  </body>
+</html>
